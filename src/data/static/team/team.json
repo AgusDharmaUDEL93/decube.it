@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Putu Agus Dharma Kusuma",
+    "image": "udel.webp",
+    "job": "Mobile Developers",
+    "skill": ["flutter.png", "android.png", "java.png", "reactjs.png"]
+  },
+  {
+    "name": "Ida Bagus Ari Widhiana",
+    "image": "gusari.webp",
+    "job": "Frontend Developers",
+    "skill": ["reactjs.png", "nextjs2.png", "tailwind.png", "bootstrap5.png"]
+  },
+  {
+    "name": "I Putu Gede Mahardika Adi Putra",
+    "image": "tude.webp",
+    "job": "Backend Developers",
+    "skill": ["go.png", "nodejs.png", "php.png", "mysql.png"]
+  },
+  {
+    "name": "Made Putra Teguh Pramana",
+    "image": "teguh.webp",
+    "job": "Devops Developers",
+    "skill": ["linux.png", "google-cloud.png", "docker.png", "auth0.png"]
+  },
+  {
+    "name": "Putu Bagus Rangga Permana Putra Astawan",
+    "image": "rangga.webp",
+    "job": "UI/UX Designer",
+    "skill": ["figma.png", "ps.png", "wordpress.png", "canva.png"]
+  }
+]
