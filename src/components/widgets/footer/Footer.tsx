@@ -180,7 +180,7 @@ export default function Footer() {
               >
                 <RiLink />
               </Button>
-              <Text>decube.udel-dev.com</Text>
+              <Text>decube-it.vercel.app</Text>
             </HStack>
           </Stack>
         </SimpleGrid>
