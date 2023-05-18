@@ -4,8 +4,14 @@ import { motion } from "framer-motion";
 
 export default function HeroWorks() {
   return (
-    <Box>
-      <Center height={"25rem"} bgColor={"blue.50"}>
+    <Box
+      bgImage={`/assets/img/BgHero.png`}
+      bgPosition={"center"}
+      bgSize={"cover"}
+      height={"30rem"}
+      px={"5rem"}
+    >
+      <Center height={"22rem"}>
         <Stack
           align={"center"}
           as={motion.div}
@@ -13,8 +19,10 @@ export default function HeroWorks() {
           initial="init"
           whileInView="animate"
         >
-          <Heading>Works</Heading>
-          <Text>It is an honour for us to showcase the best of our works.</Text>
+          <Heading color={"blue.700"}>Works</Heading>
+          <Text textAlign={"center"}>
+            Ini adalah kehormatan bagi kami untuk memamerkan karya terbaik kami.
+          </Text>
         </Stack>
       </Center>
     </Box>

@@ -10,10 +10,10 @@ export default function HeroHome() {
   const [offer] = useGotoSection("productintro");
   return (
     <Box
-      bgColor={"blue.50"}
+      height={"70rem"}
+      bgImage={`/assets/img/BgHeroHome.png`}
       bgSize={"cover"}
       bgPosition={"center"}
-      boxShadow={"0.5px 3px 15px rgb(0 0 0 / 12%)"}
     >
       <Flex
         height={{ base: "auto", md: "100vh" }}
@@ -25,7 +25,7 @@ export default function HeroHome() {
       >
         <Stack
           spacing={"5rem"}
-          color={"blue.400"}
+          color={"blue.700"}
           as={motion.div}
           variants={left}
           initial="init"
@@ -45,10 +45,21 @@ export default function HeroHome() {
               maxW={"35rem"}
               textAlign={"justify"}
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
-              nobis ex incidunt laboriosam illo nemo amet reiciendis odio quidem
-              nostrum esse aperiam, mollitia, ducimus, accusamus temporibus
-              aliquam ipsa officiis quae.
+              Decube IT adalah startup pengembangan software yang menawarkan
+              solusi kreatif dan profesional dalam pembuatan website, mobile
+              app, dan desktop app. Kami fokus pada pengalaman pengguna yang
+              menarik dan fungsional.
+            </Text>
+            <Text
+              fontSize={{ base: "md", sm: "xl" }}
+              width={"auto"}
+              maxW={"35rem"}
+              fontWeight={"semibold"}
+            >
+              <i>
+                {'"'}Membuka kotak inovasi, mengguncang dunia industri
+                {'"'}
+              </i>
             </Text>
           </Stack>
           <Box>

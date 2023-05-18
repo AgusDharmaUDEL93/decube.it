@@ -4,8 +4,14 @@ import { motion } from "framer-motion";
 
 export default function HeroProduct() {
   return (
-    <Box>
-      <Center height={"25rem"} bgColor={"blue.50"}>
+    <Box
+      bgImage={`/assets/img/BgHero.png`}
+      bgPosition={"center"}
+      bgSize={"cover"}
+      height={"30rem"}
+      px={"5rem"}
+    >
+      <Center height={"22rem"}>
         <Stack
           align={"center"}
           as={motion.div}
@@ -13,10 +19,11 @@ export default function HeroProduct() {
           initial="init"
           whileInView="animate"
         >
-          <Heading>Product</Heading>
-          <Text>
-            We are committed to provide the best value and high-quality software
-            development services to our customers from all over the world.
+          <Heading color={"blue.700"}>Product</Heading>
+          <Text textAlign={"center"}>
+            Kami berkomitmen untuk menyediakan layanan pengembangan perangkat
+            lunak berkualitas tinggi dan memberikan nilai terbaik kepada
+            pelanggan kami dari seluruh dunia.
           </Text>
         </Stack>
       </Center>

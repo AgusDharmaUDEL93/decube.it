@@ -32,11 +32,11 @@ export default function Buying() {
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")}
+      bgColor={"blue.50"}
     >
       <Stack spacing={8} mx={"auto"} maxW={"90rem"} py={12} px={6}>
         <Stack align={"center"}>
-          <Heading fontSize={"4xl"} textAlign={"center"}>
+          <Heading fontSize={"4xl"} textAlign={"center"} textColor={"blue.700"}>
             Please fill this forms
           </Heading>
           <Text fontSize={"lg"} color={"gray.600"}>

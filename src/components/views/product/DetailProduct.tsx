@@ -16,30 +16,33 @@ export default function DetailProduct() {
           isEven={false}
           image={"mobile.png"}
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
-          itaque a vitae sapiente alias autem velit nulla nihil ab ex modi
-          repellendus, nostrum ipsum! Nihil voluptate at reprehenderit animi
-          quasi.
+          Kami menghadirkan aplikasi mobile revolusioner yang mengubah hidup
+          Anda. Dengan desain yang memukau dan fitur inovatif, kami memberikan
+          pengalaman tak terlupakan di genggaman Anda. Tingkatkan produktivitas,
+          kenyamanan, dan kesenangan Anda dengan aplikasi mobile kami yang
+          intuitif dan terpercaya.
         </CardDetailProduct>
         <CardDetailProduct
           title={"Website Development"}
           isEven={false}
           image={"website.png"}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-          aliquid dolorem sint, maxime vitae veritatis, sit minima odio dolore
-          accusantium laudantium aliquam quas, sed non quidem molestias
-          architecto laborum repellat?
+          Tampilkan diri Anda dengan megah di dunia digital. Situs web kami
+          menawarkan desain yang menawan, fungsionalitas yang canggih, dan
+          navigasi yang mulus. Kami memastikan pengalaman pengguna yang tak
+          terlupakan dan membantu Anda mencapai keunggulan dalam bisnis online
+          Anda.
         </CardDetailProduct>
         <CardDetailProduct
           title={"Desktop App Development"}
           isEven={false}
           image={"desktop.png"}
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          quidem velit rem voluptatem sit officia beatae magnam, repellat dolor
-          molestiae incidunt atque. Dignissimos rerum, officia animi ab nihil
-          ipsam commodi.
+          Kami membawa kekuatan dan kemudahan ke layar komputer Anda. Aplikasi
+          desktop kami memberikan solusi yang handal dan efisien untuk kebutuhan
+          Anda. Dengan antarmuka yang elegan, performa yang tinggi, dan
+          fitur-fitur kelas dunia, kami meningkatkan produktivitas dan
+          memperluas batasan kreativitas Anda. Keunggulan di ujung jari Anda.
         </CardDetailProduct>
       </Stack>
     </Box>

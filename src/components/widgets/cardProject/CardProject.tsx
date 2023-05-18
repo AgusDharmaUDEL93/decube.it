@@ -1,4 +1,5 @@
 import { bottom } from "@/animations/linear";
+import { linkRedirection } from "@/utils/linkRedirection";
 import {
   AspectRatio,
   Stack,
@@ -42,7 +43,14 @@ export default function CardProject({
         </Heading>
         <Text textAlign={"justify"}>{children}</Text>
         <Box>
-          <Button colorScheme="blue">See Our Works</Button>
+          <Button
+            colorScheme="blue"
+            onClick={() => {
+              linkRedirection(link);
+            }}
+          >
+            See Our Works
+          </Button>
         </Box>
       </Stack>
     </Box>

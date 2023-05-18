@@ -16,10 +16,10 @@ export default function QuoteHome() {
   return (
     <Box bgSize={"cover"} bgPosition={"center"}>
       <Flex
-        height={{ base: "auto", md: "80vh" }}
+        height={{ base: "auto", lg: "80vh" }}
         justifyContent={{ base: "space-evenly", lg: "space-between" }}
         alignItems={"center"}
-        flexDirection={{ base: "column-reverse", lg: "row" }}
+        flexDirection={{ base: "column", lg: "row" }}
         px={{ base: "10", md: "10%" }}
         py={"5rem"}
       >
@@ -48,21 +48,22 @@ export default function QuoteHome() {
           <Box>
             <Heading>With great dedication, comes great expertise</Heading>
             <Text>
-              Some of our expertises include: UI/UX Design, UX Research,
-              Responsive Website Design and Development, Microsite Campaign,
-              Content Management System (CMS) Development, eCommerce Platform
-              Development, Custom Web Application Development, as well as Mobile
-              Application Development.
+              Beberapa keahlian kami meliputi: Desain UI/UX, Penelitian UX,
+              Desain dan Pengembangan Website Responsif, Kampanye Microsite,
+              Pengembangan Sistem Manajemen Konten (CMS), Pengembangan Platform
+              eCommerce, Pengembangan Aplikasi Web Kustom, serta Pengembangan
+              Aplikasi Mobile.
             </Text>
           </Box>
           <Box>
             <Heading>We listen to your goals and deliver what you want</Heading>
             <Text>
-              We are proud of our ability to understand our client. We listen to
-              your goals and deliver what you want. With our individualized
-              strategy, we will formulate the right strategy just for you. Not
-              to mention, our conscientious team will make sure to maintain the
-              services to infinity and beyond!
+              Kami bangga dengan kemampuan kami untuk memahami klien kami. Kami
+              mendengarkan tujuan Anda dan memberikan yang Anda inginkan. Dengan
+              strategi yang disesuaikan dengan kebutuhan Anda, kami akan
+              merumuskan strategi yang tepat hanya untuk Anda. Belum lagi, tim
+              kami yang teliti akan memastikan untuk menjaga layanan hingga tak
+              terbatas!
             </Text>
           </Box>
         </Stack>

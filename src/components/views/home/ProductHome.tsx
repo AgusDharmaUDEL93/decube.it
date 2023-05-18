@@ -2,6 +2,7 @@ import {
   Box,
   Button,
   Center,
+  Flex,
   Heading,
   SimpleGrid,
   Stack,
@@ -14,37 +15,51 @@ import CardIntroProducts from "@/components/widgets/cardIntroProduct/CardIntroPr
 
 export default function ProductHome() {
   return (
-    <Box id="productintro" px={{ base: 6, md: "10%" }} py={"8"} bgColor={"blue.50"}>
-      <Center marginBottom={"3rem"}>
-        <Stack align={"center"} maxW={"75rem"}>
-          <Heading color={"blue.400"}>OUR SERVICES</Heading>
-          <Text textAlign={"center"} fontSize={"xl"}>
-            Over the years, our experience has helped our clients set out their
-            new ventures in the digital world. Check out some of our best works.
-          </Text>
-        </Stack>
-      </Center>
-      <SimpleGrid
-        display={"flex"}
-        flexWrap={"wrap"}
-        columns={{ base: 1, lg: 2, xl: 3 }}
-        width={"100%"}
-        justifyContent={"center"}
-        spacing={"5rem"}
-      >
-        <CardIntroProducts title={"Mobile App Development"} lottie={Mobile}>
-          User-friendly iOS and Android application development helps a range of
-          start-ups and enterprises to redefine mobile user experiences.
-        </CardIntroProducts>
-        <CardIntroProducts title={"Website Development"} lottie={Website}>
-          User-friendly iOS and Android application development helps a range of
-          start-ups and enterprises to redefine mobile user experiences.
-        </CardIntroProducts>
-        <CardIntroProducts title={"Desktop App Development"} lottie={Desktop}>
-          User-friendly iOS and Android application development helps a range of
-          start-ups and enterprises to redefine mobile user experiences.
-        </CardIntroProducts>
-      </SimpleGrid>
-    </Box>
+    <Flex
+      height={{ base: "auto", lg: "85rem" }}
+      bgColor={{ base: "blue.50", lg: "transparent" }}
+      bgImage={{ base: "none", lg: `/assets/img/BgProductHome.png` }}
+      bgSize={"cover"}
+      bgPosition={"center"}
+      alignItems={"center"}
+      justifyContent={"center"}
+      px={{ base: 6, md: "10%" }}
+      paddingTop={{ base: "3rem" }}
+      paddingBottom={{ base: "3rem", lg: "10rem" }}
+    >
+      <Box id="productintro">
+        <Center marginBottom={"3rem"}>
+          <Stack align={"center"} maxW={"75rem"}>
+            <Heading color={"blue.700"}>OUR SERVICES</Heading>
+            <Text textAlign={"center"} fontSize={"xl"}>
+              Kami mendorong diri kami untuk menjadi kreatif dalam setiap
+              proyek. Kreativitas seperti itu diterapkan pada semua aspek,
+              termasuk memaksimalkan anggaran dan waktu Anda.
+            </Text>
+          </Stack>
+        </Center>
+        <SimpleGrid
+          display={"flex"}
+          flexWrap={"wrap"}
+          columns={{ base: 1, lg: 2, xl: 3 }}
+          width={"100%"}
+          justifyContent={"center"}
+          spacing={"5rem"}
+        >
+          <CardIntroProducts title={"Mobile App Development"} lottie={Mobile}>
+            Temukan keajaiban aplikasi mobile yang mengubah hidup Anda serta
+            memberikan kenyamanan di ujung jari Anda.
+          </CardIntroProducts>
+          <CardIntroProducts title={"Website Development"} lottie={Website}>
+            Sajikan diri Anda kepada dunia dengan situs web yang menarik,
+            menampilkan keunggulan Anda dengan desain yang memikat.
+          </CardIntroProducts>
+          <CardIntroProducts title={"Desktop App Development"} lottie={Desktop}>
+            Kuasai dunia digital dengan aplikasi desktop yang menghadirkan
+            kekuatan dan kenyamanan di layar komputer Anda.
+          </CardIntroProducts>
+        </SimpleGrid>
+      </Box>
+    </Flex>
   );
 }

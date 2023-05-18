@@ -50,7 +50,7 @@ export default function Navbar() {
     <Box as={"nav"}>
       <Box
         px={{ base: 4, md: "10%" }}
-        py={"8"}
+        py={"1.5rem"}
         position={"fixed"}
         width={"100%"}
         zIndex={"2"}

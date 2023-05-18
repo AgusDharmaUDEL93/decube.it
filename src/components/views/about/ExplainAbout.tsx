@@ -54,16 +54,16 @@ export default function ExplainAbout() {
             </Heading>
             <Divider colorScheme="blackAlpha" />
             <Text textAlign={"justify"}>
-              In this digital age, we believe that connectivity is what it takes
-              to build a successful business empire. Having websites or mobile
-              applications that focuses on the user and is easily understandable
-              will boost your competitiveness in the market. With the mission to
-              get our clients what they truly deserve, Vodjo was founded on
-              November 2015 in Bandung, Indonesia. We are a team of talented and
-              passionate developers, designers and technopreneurs who thrive on
-              designing and developing great user interfaces and experiences for
-              websites, web applications and mobile applications. The diversity
-              in our team generates a truly unique experiences for our client.
+              Pada era digital ini, kami meyakini bahwa konektivitas adalah
+              kunci keberhasilan dalam membangun kerajaan bisnis. Melalui situs
+              web dan aplikasi mobile yang berorientasi pada pengguna dan mudah
+              dipahami, kami meningkatkan daya saing bisnis Anda di pasar.
+              Sebagai Decube IT, misi kami adalah memberikan nilai sejati kepada
+              klien kami. Kami adalah tim pengembang, desainer, dan
+              technopreneur yang berdedikasi, fokus pada pengembangan antarmuka
+              pengguna yang luar biasa untuk situs web, aplikasi web, dan
+              aplikasi mobile. Keberagaman dalam tim kami menciptakan pengalaman
+              yang benar-benar unik bagi setiap klien kami.
             </Text>
           </Stack>
         </Stack>

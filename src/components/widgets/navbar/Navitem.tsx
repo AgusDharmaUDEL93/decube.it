@@ -15,9 +15,9 @@ export default function Navitem({ children, path }: props) {
       fontWeight={"semibold"}
       transition={"color 0.5s"}
       onClick={() => navigate(router, path)}
-      color={"blue.400"}
+      color={"blue.500"}
       _hover={{
-        color: "blue.700",
+        color: "blue.900",
         _after: {
           transform: "scaleX(1)",
           transformOrigin: "bottom left",
@@ -31,7 +31,7 @@ export default function Navitem({ children, path }: props) {
         height: "2px",
         bottom: 0,
         left: 0,
-        bgColor: "blue.700",
+        bgColor: "blue.900",
         transformOrigin: "bottom right",
         transition: "transform 0.25s ease-out",
       }}

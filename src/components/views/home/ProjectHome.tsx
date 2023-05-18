@@ -26,9 +26,9 @@ export default function ProjectHome() {
           <Stack align={"center"} maxW={"75rem"}>
             <Heading color={"blue.400"}>FEATURED WORKS</Heading>
             <Text textAlign={"center"} fontSize={"xl"}>
-              Over the years, our experience has helped our clients set out
-              their new ventures in the digital world. Check out some of our
-              best works.
+              Pengalaman kami yang telah membantu beberapa klien kami untuk
+              memulai usaha baru mereka di dunia digital. Lihat beberapa karya
+              terbaik kami.
             </Text>
           </Stack>
         </Center>

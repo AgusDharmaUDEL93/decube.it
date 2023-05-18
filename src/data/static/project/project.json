@@ -3,28 +3,28 @@
     "title": "PKM Center FMIPA",
     "image": "pkmcenter.png",
     "tags": "Website",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus sapiente! Alias iusto, perferendis fuga aliquid officia cumque atque, nobis aut velit modi ad at non, mollitia quae repudiandae deleniti! Vero at temporibus ab consectetur ipsum, fugit cum excepturi magnam esse necessitatibus accusamus voluptatum beatae pariatur dolorem dolore optio velit?",
+    "desc": "Website resmi PKM Center Fakultas Matematika dan Ilmu Pengetahuan Alam bertindak sebagai jembatan yang menghubungkan mahasiswa FMIPA dengan informasi terkait Program Kreativitas Mahasiswa (PKM) di Universitas Udayana. Kami menyediakan sumber informasi yang lengkap dan mendalam untuk mendukung kesuksesan mahasiswa dalam mengembangkan PKM mereka.",
     "link": "https://pkmcenter.bemfmipaunud.com"
   },
   {
     "title": "Find Your Way",
     "image": "findyourway.png",
     "tags": "Mobile App",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus sapiente! Alias iusto, perferendis fuga aliquid officia cumque atque, nobis aut velit modi ad at non, mollitia quae repudiandae deleniti! Vero at temporibus ab consectetur ipsum, fugit cum excepturi magnam esse necessitatibus accusamus voluptatum beatae pariatur dolorem dolore optio velit?",
+    "desc": "Aplikasi Find Your Way adalah sebuah aplikasi mobile yang membantu pengguna menemukan rute terbaik dari beberapa tujuan yang telah ditentukan. Aplikasi ini akan mendeteksi posisi pengguna saat ini sebagai titik awal perjalanan dan meminta pengguna untuk menandai tujuan yang ingin dikunjungi pada peta yang disediakan.",
     "link": "https://github.com/AgusDharmaUDEL93/aplikasi_find_your_way"
   },
   {
     "title": "Job Dreamer",
     "image": "jobdreamer.png",
     "tags": "Mobile App",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus sapiente! Alias iusto, perferendis fuga aliquid officia cumque atque, nobis aut velit modi ad at non, mollitia quae repudiandae deleniti! Vero at temporibus ab consectetur ipsum, fugit cum excepturi magnam esse necessitatibus accusamus voluptatum beatae pariatur dolorem dolore optio velit?",
+    "desc": "Job Dreamer adalah aplikasi yang memudahkan pencarian dan penampilan lowongan pekerjaan. Temukan peluang karir yang tepat dan jelajahi deskripsi pekerjaan lengkap, persyaratan, dan perusahaan. Terapkan langsung melalui aplikasi. Job Dreamer membantu Anda mewujudkan impian pekerjaan Anda dengan mudah dan efisien.",
     "link": "https://github.com/AgusDharmaUDEL93/job_dreamer"
   },
   {
-    "title": "PKM Center FMIPA",
-    "image": "pkmcenter.png",
+    "title": "Agen Certif",
+    "image": "agencertif.png",
     "tags": "Website",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus sapiente! Alias iusto, perferendis fuga aliquid officia cumque atque, nobis aut velit modi ad at non, mollitia quae repudiandae deleniti! Vero at temporibus ab consectetur ipsum, fugit cum excepturi magnam esse necessitatibus accusamus voluptatum beatae pariatur dolorem dolore optio velit?",
-    "link": "https://pkmcenter.bemfmipaunud.com"
+    "desc": "AgenCertif adalah aplikasi inovatif yang mengotomatisasi proses pembuatan sertifikat. Dengan fitur canggih, aplikasi ini mempercepat dan menyederhanakan pembuatan sertifikat, termasuk desain, penambahan informasi, dan pengiriman kepada penerima. AgenCertif memastikan keakuratan dan efisiensi dalam mengelola sertifikat, meningkatkan produktivitas dan kepuasan pengguna.",
+    "link": "https://agentcertif.netlify.app/"
   }
 ]
