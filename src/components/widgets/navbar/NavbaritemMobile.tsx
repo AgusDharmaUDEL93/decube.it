@@ -2,7 +2,6 @@ import navigate from "@/utils/navigate";
 import { Box, Button, Divider } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
-
 type props = {
   children?: React.ReactNode;
   path: string;
@@ -15,7 +14,7 @@ export default function NavbaritemMobile({ children, path }: props) {
       <Button
         my={"5px"}
         variant={"unstyled"}
-        color={"orange.400"}
+        color={"blue.400"}
         onClick={() => {
           navigate(router, path);
         }}
